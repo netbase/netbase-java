@@ -41,7 +41,7 @@ Once you have registered your client application, this library help you get/refr
 		return;
 	}
 
-You can find more demos under the `package com.netbase.insightapi.v2.samples`.
+You can find more demos under the package `com.netbase.insightapi.v2.samples`.
 
 
 License
