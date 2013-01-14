@@ -41,9 +41,9 @@ Once you have registered your client application, this library help you get/refr
 		return;
 	}
 
-You can find more demos under the package com.netbase.insightapi.v2.samples.
+You can find more demos under the `package com.netbase.insightapi.v2.samples`.
 
 
 License
 ============ 
-This project is licensed under the Apache 2.0 license.
+This project is licensed under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html).
