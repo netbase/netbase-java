@@ -7,7 +7,7 @@ Using
 ============
 The library is quite simple and easy to use. You can use the basic authentication or OAuth authentication.
 
-	NetBase nb = NetBaseFactory.getInstance("account", "pwd", true);
+```NetBase nb = NetBaseFactory.getInstance("account", "pwd", true);
 	//NetBase nb_oauth = NetBaseFactory.getInstance("access_token", true);
 	
 	Request req = new Request();
@@ -21,10 +21,10 @@ The library is quite simple and easy to use. You can use the basic authenticatio
 	catch (ApiErrorException e) {
 		return;
 	}
-
+```
 Once you have registered your client application, this library help you get/refresh tokens in few steps.
 
-	NetbaseOAuth oauth = NetBaseFactory.getOAuthInstance("redirectUri", "clientId", "clientSecret", true);
+```NetbaseOAuth oauth = NetBaseFactory.getOAuthInstance("redirectUri", "clientId", "clientSecret", true);
 
 	String refreshToken = null;
 	String accessToken = null;
@@ -40,7 +40,7 @@ Once you have registered your client application, this library help you get/refr
 	catch (ParamErrorException e) {
 		return;
 	}
-
+```
 You can find more demos under the package `com.netbase.insightapi.v2.samples`.
 
 
