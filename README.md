@@ -5,7 +5,9 @@ A Java wrapper library for the RESTful NetBase Insight API
 
 Using
 ============
-The library is quite simple and easy to use. You can use the basic authentication or OAuth authentication.
+The library is quite simple and easy to use. You can use HTTP Basic authentication or OAuth 2.0 authentication.
+
+See the API Documentation at https://api.netbase.com/ for more information.
 
 ```java
 NetBase nb = NetBaseFactory.getInstance("account", "pwd", true);
